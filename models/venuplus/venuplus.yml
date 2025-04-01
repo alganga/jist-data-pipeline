@@ -1,0 +1,51 @@
+
+version: 2
+
+models:
+  - name: venuplus_balance_sheet
+    description: "Balance sheet model for storing balance sheet entries"
+  - name: venuplus_target_trial_balance_manual
+    description: "Trial balance model for storing general entries from manual sources"
+  - name: venuplus_target_trial_balance
+    description: "Trial balance model for storing general entries"
+  - name: venuplus_headcount
+    description: "Headcount model for storing headcount entries"
+  - name: venuplus_public_equities
+    description: "Public equities model for storing public equities entries"
+  - name: venuplus_five_year_plans
+    description: "Five year plans model for storing five year plans entries"
+  - name: venuplus_profit_and_loss
+    description: "Profit and loss model for storing pnl entries"
+  - name: venuplus_net_working_capital
+    description: "Net working capital model for storing nwc entries"
+  - name: venuplus_revenue_wtd_location
+    description: "Revenue wtd location model for storing revenue wtd location entries"
+  - name: venuplus_revenue_wtd_international
+    description: "Revenue wtd international model for storing revenue wtd international entries"
+
+sources:
+  - name: "venuplus"
+    schema: "venuplus"
+    tables:
+      - name: trial_balances
+        identifier: trial_balances
+      - name: trial_balances_manual
+        identifier: trial_balances_manual
+      - name: report_config
+        identifier: "venuplus_report_config_data"
+      - name: entity_config
+        identifier: "venuplus_entity_config_data"
+      - name: entity_period_config
+        identifier: "venuplus_entity_period_config_data"
+      - name: period_config
+        identifier: "venuplus_period_config_data"
+      - name: headcount
+        identifier: "headcount"
+      - name: public_equities
+        identifier: public_equities
+      - name: five_year_plans
+        identifier: five_year_plans
+      - name: revenue_wtd_location
+        identifier: revenue_wtd_location
+      - name: revenue_wtd_international
+        identifier: revenue_wtd_international

@@ -1,0 +1,115 @@
+report_id,metric_id,metric_name,metric_order,submetric_order,subgroup_order,type
+1000,1,Assets,1,0.0,,metric
+1000,13,Current Assets,1,1.0,,sub_metric
+1000,12,Non Current Assets,1,2.0,,sub_metric
+1000,4,Liabilities,2,0.0,,metric
+1000,6,Current Liabilities,2,1.0,,sub_metric
+1000,7,Non Current Liabilities,2,2.0,,sub_metric
+1000,3,Owners Equity,3,0.0,,metric
+1000,14,Equity,3,1.0,,sub_metric
+1000,72,Accumulated Comprehensive gain/loss,3,1.0,0.0,sub_group
+1000,73,Paid in Capital,3,1.0,2.0,sub_group
+1000,105,Distributions,3,1.0,3.0,sub_group
+1000,2,Revenue,4,0.0,,metric
+1000,5,Expense,5,0.0,,metric
+1000,18,Cost of Goods Sold,5,1.0,,sub_metric
+1000,9,EBITDA Expenses,5,2.0,,sub_metric
+1000,33,Cash and Cash Equivalents,1,1.0,1.0,sub_group
+1000,34,Trade Receivables,1,1.0,4.0,sub_group
+1000,15,Inventories,1,1.0,2.0,sub_group
+1000,35,Prepaid Expenses,1,1.0,3.0,sub_group
+1000,70,Prepayments and Other Receivables,1,1.0,5.0,sub_group
+1000,36,Intangibles,1,2.0,2.0,sub_group
+1000,50,"PP&E, net",1,2.0,5.0,sub_group
+1000,38,Goodwill,1,2.0,1.0,sub_group
+1000,39,License and Deposits,1,2.0,3.0,sub_group
+1000,40,Other non-current assets,1,2.0,4.0,sub_group
+1000,71,Tangible fixed Assets,1,2.0,5.0,sub_group
+1000,102,Intangible Assets,1,2.0,6.0,sub_group
+1000,103,Investments & Other Long Term Assets,1,2.0,7.0,sub_group
+1000,104,Propert Plant & Equipment,1,2.0,7.0,sub_group
+1000,116,Intangible Fixed Assets,1,2.0,8.0,sub_group
+1000,10,Accounts Payable,2,1.0,1.0,sub_group
+1000,37,Accrued Liabilities,2,1.0,3.0,sub_group
+1000,43,Accrued Compensation and Benefits,2,1.0,2.0,sub_group
+1000,44,Gift card liability,2,1.0,4.0,sub_group
+1000,78,Accrued Liability,2,1.0,5.0,sub_group
+1000,79,Other Current Liability,2,1.0,6.0,sub_group
+1000,80,Trade Payables,2,1.0,7.0,sub_group
+1000,51,"Accrued workers' compensation liabilities, net of current portion",2,2.0,1.0,sub_group
+1000,45,Other long-term liabilities,2,2.0,4.0,sub_group
+1000,46,"Operating lease liability, net of current portion",2,2.0,3.0,sub_group
+1000,41,"Loans, net of current portion and deferred costs",2,2.0,2.0,sub_group
+1000,107,Long Term  Liabilities,2,2.0,5.0,sub_group
+1000,108,Long Term Debts,2,2.0,6.0,sub_group
+1000,48,Member's contribution,3,1.0,1.0,sub_group
+1000,49,Retained Earnings,3,1.0,2.0,sub_group
+1000,49,Retained Earnings,3,2.0,,sub_metric
+1000,100,Opening Balance,3,2.0,2.0,sub_group
+2000,5,Expense,1,0.0,,metric
+2000,18,Cost of Goods Sold,1,1.0,,sub_metric
+2000,9,EBITDA Expenses,1,2.0,,sub_metric
+3000,2,Revenue,1,,,metric
+3000,18,Cost of Goods Sold,2,,,metric
+3000,21,Gross Profit,3,,,metric
+3000,5,Expense,4,,,metric
+3000,25,Total Hourly Labour,5,,,metric
+3000,19,Total Salary,6,,,metric
+3000,24,Total Taxes & Benefits,7,,,metric
+3000,52,Controllable Expense,8,,,metric
+3000,53,Non-Controllable Expense,9,,,metric
+3000,54,Total Shared Expense,10,,,metric
+3000,22,EBITDA,11,,,metric
+3000,23,"Interest, Taxes, Depreciation and Amortization",12,,,metric
+3000,20,Net Income,13,,,metric
+4000,2,Revenue,1,0.0,,metric
+4000,22,EBITDA,2,0.0,,metric
+4000,13,Current Assets,3,0.0,,metric
+4000,33,Cash and Cash Equivalents,3,1.0,,sub_metric
+4000,34,Trade Receivables,3,4.0,,sub_metric
+4000,15,Inventories,3,2.0,,sub_metric
+4000,35,Prepaid Expenses,3,3.0,,sub_metric
+4000,6,Current Liabilities,4,0.0,,metric
+4000,10,Accounts Payable,4,1.0,,sub_metric
+4000,37,Accrued Liabilities,4,3.0,,sub_metric
+4000,43,Accrued Compensation and Benefits,4,2.0,,sub_metric
+4000,44,Gift card liability,2,4.0,,sub_metric
+4000,28,NWC,5,0.0,,metric
+4000,27,DSO,6,0.0,,metric
+4000,26,DIO,7,0.0,,metric
+4000,29,DPO,8,0.0,,metric
+5000,31,Cash & cash equivalent at beginning of period,1,0.0,,metric
+5000,16,Cash flow from Operating Activities,2,0.0,,metric
+5000,11,Cash flow from Investing Activities,3,0.0,,metric
+5000,55,Cash flow from Financing Activities,4,0.0,,metric
+5000,30,Cash & cash equivalent at end of period,5,0.0,,metric
+5000,32,Change in cash,6,0.0,,metric
+5000,33,Cash and Cash Equivalents,2,1.0,,sub_metric
+5000,57,"AR-Trade, net",2,2.0,,sub_metric
+5000,64,Other-AR,2,3.0,,sub_metric
+5000,63,Merchandise inventories,2,4.0,,sub_metric
+5000,35,Prepaid Expenses,2,5.0,,sub_metric
+5000,10,Accounts Payable,2,6.0,,sub_metric
+5000,62,"Intangibles, net",2,7.0,,sub_metric
+5000,58,Current portion of debt,2,8.0,,sub_metric
+5000,50,"PP&E, net",2,9.0,,sub_metric
+5000,61,"Goodwill, net",2,10.0,,sub_metric
+5000,39,License and Deposits,2,11.0,,sub_metric
+5000,40,Other non-current assets,2,12.0,,sub_metric
+5000,60,"Debt, net of current portion",4,1.0,,sub_metric
+5000,66,"Right-of-use asset operating lease, net",2,13.0,,sub_metric
+5000,56,Accrued Expenses,2,14.0,,sub_metric
+5000,43,Accrued compensation and benefits,2,15.0,,sub_metric
+5000,44,Gift card liability,2,16.0,,sub_metric
+5000,51,"Accrued workers' compensation liabilities, net of current portion",2,17.0,,sub_metric
+5000,59,Current portion of workers' compensation liabilities,2,18.0,,sub_metric
+5000,45,Other long-term liabilities,4,2.0,,sub_metric
+5000,67,Current portion of operating lease liability,2,19.0,,sub_metric
+5000,46,"Operating lease liability, net of current portion",2,20.0,,sub_metric
+5000,49,Retained Earnings,2,21.0,,sub_metric
+5000,68,Other,2,22.0,,sub_metric
+5000,65,Revolving Line of Credit,4,3.0,,sub_metric
+5000,48,Member's contribution,4,4.0,,sub_metric
+5000,22,EBITDA,2,23.0,,sub_metric
+5000,38,Goodwill,2,24.0,,sub_metric
+5000,20,Net Income,2,25.0,,sub_metric

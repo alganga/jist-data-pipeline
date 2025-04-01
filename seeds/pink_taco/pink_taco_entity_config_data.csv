@@ -1,0 +1,13 @@
+entity_name,source_entity_id,entity_id,concept,concept_name,concept_id,country_id,company_id,company_name
+PINK TACO RIVER NORTH,4002,1,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO NORTH TRUCK,5002,2,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO SUNSET TRUCK,5001,3,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO SUNSET,4001,4,PT,Pink Taco,1,1,6,pink_taco
+DEFAULT STORE,0,5,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO PEARL DISTRICT,4004,6,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO FORT POINT,4005,7,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO WASHINGTON DC,4006,8,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO SOUTH BEACH,4003,9,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO TIMES SQUARE NY,4007,10,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO ROAMER TRUCK #1,5101,11,PT,Pink Taco,1,1,6,pink_taco
+PINK TACO SOUTH BEACH TRUCK,5003,12,PT,Pink Taco,1,1,6,pink_taco

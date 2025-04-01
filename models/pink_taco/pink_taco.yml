@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: pink_taco_balance_sheet
+    description: "description"
+  - name: pink_taco_target_trial_balance
+    description: "Trial balance model for storing general entries"
+  - name: pink_taco_target_trial_balance_manual
+    description: "Trial balance model for storing general entries from manual sources"
+  - name: pink_taco_cash_flow
+    description: "Cash flow model for storing cf entries"
+  - name: pink_taco_profit_and_loss
+    description: "Profit and loss model for storing pnl entries"
+  - name: pink_taco_net_working_capital
+    description: "Net working capital model for storing nwc entries"
+  - name: pink_taco_revenue_wtd
+    description: "week to date model for storing sales data"
+  - name: pink_taco_public_equities
+    description: "Public equities model for storing public equities entries"
+  - name: pink_taco_five_year_plans
+    description: "Five year plans model for storing five year plans entries"
+  - name: pink_taco_guest_check
+    description: "Guest check model for storing guest check entries"
+  - name: pink_taco_auv
+    ddescription: "Average unit volume model for storing auv entries"
+
+
+sources:
+  - name: pink_taco
+    schema: pink_taco
+    tables:
+      - name: general_ledger_config
+        identifier: pink_taco_gl_config_data
+      - name: trial_balances
+        identifier: trial_balances
+      - name: report_config
+        identifier: pink_taco_report_config_data
+      - name: entity_config
+        identifier: pink_taco_entity_config_data
+      - name: entity_period_config
+        identifier: pink_taco_entity_period_config_data
+      - name: concept_config
+        identifier: pink_taco_concept_config_data
+      - name: revenue_wtd
+        identifier: revenue_wtd
+      - name: public_equities
+        identifier: public_equities
+      - name: headcount
+        identifier: headcount
+      - name: five_year_plans
+        identifier: five_year_plans
+      - name: guest_check
+        identifier: guest_check
+      - name: fiscal_calendar
+        identifier: pink_taco_fiscal_calendar
+      - name: pink_taco_profit_and_loss_staged
+        identifier: pink_taco_profit_and_loss_staged
+      - name: trial_balances_manual
+        identifier: trial_balances_manual

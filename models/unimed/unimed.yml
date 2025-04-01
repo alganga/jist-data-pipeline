@@ -1,0 +1,87 @@
+
+version: 2
+
+models:
+  - name: unimed_target_trial_balance
+    description: "trial balance model for storing general entries"
+  - name: unimed_target_trial_balance_manual
+    description: "Trial balance model for storing general entries from manual sources"
+  - name: unimed_revenue_customer_segment
+    description: "revenue model for storing revenue entries by customer"
+  - name: unimed_trial_balances_usa_staged
+    description: "Transformed trial_balances_usa"
+  - name: unimed_trial_balances_tm_staged
+    description: "Transformed trial_balances_tm"
+  - name: unimed_trial_balances_aus_staged
+    description: "Transformed trial_balances_aus"
+  - name: unimed_trial_balances_sg_staged
+    description: "Transformed trial_balances_sg"
+  - name: unimed_trial_balances_davie_staged
+    description: "Transformed trial_balances_davie"
+  - name: unimed_trial_balances_uk_staged
+    description: "Transformed trial_balances_uk"
+  - name: unimed_trial_balances_gr_staged
+    description: "Transformed trial_balances_gr"
+  - name: unimed_profit_and_loss
+    description: "Profit and loss model for storing pnl entries"
+  - name: unimed_profit_and_loss_staged
+  - name: unimed_balance_sheet
+    description: "Balance Sheet model for storing bs entries"
+  - name: unimed_five_year_plans
+    description: "Five year plans model for storing five year plans entries"
+  - name: unimed_headcount
+    description: "Headcount model for storing headcount entries"
+  - name: unimed_public_equities
+    description: "Public equities model for storing public equities entries"
+  - name: unimed_revenue_wtd
+    description: "Revenue WTD model for storing revenue entries"
+  - name: unimed_net_working_capital
+    description: "Net working capital model for storing nwc entries"
+  - name: unimed_cash_flow
+    description: "Cash flow model for storing cf entries"
+    
+sources:
+  - name: "unimed"
+    schema: "unimed"
+    tables:
+      - name: trial_balances_usa
+        identifier: trial_balances_usa
+      - name: trial_balances_tm
+        identifier: trial_balances_tm
+      - name: trial_balances_aus
+        identifier: trial_balances_aus
+      - name: trial_balances_sg
+        identifier: trial_balances_sg
+      - name: trial_balances_davie
+        identifier: trial_balances_davie
+      - name: trial_balances_gr
+        identifier: trial_balances_gr
+      - name: trial_balances_uk
+        identifier: trial_balances_uk
+      - name: revenue_customer_usa
+        identifier: revenue_customer_usa
+      - name: revenue_customer_tm
+        identifier: revenue_customer_tm
+      - name: revenue_customer_uk
+        identifier: revenue_customer_uk
+      - name: revenue_customer_sg
+        identifier: revenue_customer_sg
+      - name: revenue_customer_davie
+        identifier: revenue_customer_davie
+      - name: revenue_customer_aus
+        identifier: revenue_customer_aus
+      - name: report_config
+        identifier: "unimed_report_config_data"
+      - name: entity_config_data
+        identifier: "unimed_entity_config_data"
+      - name: five_year_plans
+        identifier: five_year_plans
+      - name: headcount
+        identifier: headcount
+      - name: public_equities
+        identifier: public_equities
+      - name: customer_segment_data
+        identifier: "unimed_customer_segment_data"
+      - name: trial_balances_manual
+        identifier: trial_balances_manual
+

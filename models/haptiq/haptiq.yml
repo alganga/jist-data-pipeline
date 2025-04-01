@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: haptiq_balance_sheet
+    description: "description"
+  - name: haptiq_target_trial_balance
+    description: "Trial balance model for storing general entries"
+  - name: haptiq_cash_flow
+    description: "Cash flow model for storing cf entries"
+  - name: haptiq_profit_and_loss
+    description: "Profit and loss model for storing pnl entries"
+  - name: haptiq_net_working_capital
+    description: "Net working capital model for storing nwc entries"
+  - name: haptiq_revenue_wtd
+    description: "week to date model for storing sales data"
+  - name: haptiq_public_equities
+    description: "Public equities model for storing public equities entries"
+  - name: haptiq_five_year_plans
+    description: "Five year plans model for storing five year plans entries"
+  - name: haptiq_auv
+    ddescription: "Average unit volume model for storing auv entries"
+
+
+sources:
+  - name: haptiq
+    schema: haptiq
+    tables:
+      - name: general_ledger_config
+        identifier: haptiq_gl_config_data
+      - name: trial_balances
+        identifier: trial_balances
+      - name: report_config
+        identifier: haptiq_report_config_data
+      - name: entity_config
+        identifier: haptiq_entity_config_data
+      - name: entity_period_config
+        identifier: haptiq_entity_period_config_data
+      - name: concept_config
+        identifier: haptiq_concept_config_data
+      - name: revenue_wtd
+        identifier: revenue_wtd
+      - name: public_equities
+        identifier: public_equities
+      - name: headcount
+        identifier: headcount
+      - name: five_year_plans
+        identifier: five_year_plans
+      - name: fiscal_calendar
+        identifier: haptiq_fiscal_calendar
+      - name: haptiq_profit_and_loss_staged
+        identifier: haptiq_profit_and_loss_staged

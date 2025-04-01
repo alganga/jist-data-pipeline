@@ -1,0 +1,13 @@
+entity_name,source_entity_id,entity_id,concept,concept_name,concept_id,country_id,company_id,company_name
+SAFFRON & SAGE,4002,1,HQ,Haptiq,1,1,0,haptiq
+THE WHIMSICAL FORK,5002,2,HQ,Haptiq,1,1,0,haptiq
+THE HARVEST TABLE,5001,3,HQ,Haptiq,1,1,0,haptiq
+EMBER & ASH,4001,4,HQ,Haptiq,1,1,0,haptiq
+COASTAL CRAVINGS,0,5,HQ,Haptiq,1,1,0,haptiq
+THE NOOK BISTRO,4004,6,HQ,Haptiq,1,1,0,haptiq
+SPICE SYMPHONY,4005,7,HQ,Haptiq,1,1,0,haptiq
+BELLA LUNA CAFE,4006,8,HQ,Haptiq,1,1,0,haptiq
+TWILIGHT TAPAS,4003,9,HQ,Haptiq,1,1,0,haptiq
+URBAN ROOTS KITCHEN,4007,10,HQ,Haptiq,1,1,0,haptiq
+CEDAR & STONE GRILL,5101,11,HQ,Haptiq,1,1,0,haptiq
+MINT & MARROW,5003,12,HQ,Haptiq,1,1,0,haptiq

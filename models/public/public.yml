@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: report_metric_config
+        identifier: report_metric_config
+      - name: city_config_data
+        identifier: city_config_data
+      - name: state_config_data
+        identifier: state_config_data
+      - name: country_config_data
+        identifier: country_config_data

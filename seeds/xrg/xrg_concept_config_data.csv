@@ -1,0 +1,12 @@
+concept_id,concept,concept_name,company_id,company_name
+0,DEF,DEFAULT_CONCEPT,10,xrg
+2,CH,Chevys,10,xrg
+3,ET,El Torito,10,xrg
+4,ETG,El Torito Grill,10,xrg
+9,SOL,SOL,10,xrg
+8,SLA,Solita,10,xrg
+1,ACA,Acapulco,10,xrg
+5,LB,Las Brisas,10,xrg
+7,SIN,Sinigual,10,xrg
+10,TR,The Rim,10,xrg
+6,RM,Rio Mamo,10,xrg

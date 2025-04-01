@@ -1,0 +1,81 @@
+
+version: 2
+
+models:
+  - name: xrg_balance_sheet
+    description: "Balance sheet model for storing balance sheet entries"
+  - name: xrg_target_trial_balance
+    description: "Trial balance model for storing general entries"
+  - name: xrg_target_trial_balance_manual
+    description: "Trial balance model for storing general entries from manual sources"
+  - name: xrg_cash_flow
+    description: "Cash flow model for storing cf entries"
+  - name: xrg_profit_and_loss
+    description: "Profit and loss model for storing pnl entries"
+  - name: xrg_net_working_capital
+    description: "Net working capital model for storing nwc entries"
+  - name: xrg_revenue_wtd
+    description: "week to date model for storing sales data"
+  - name: xrg_public_equities
+    description: "Public equities model for storing public equities entries"
+  - name: xrg_five_year_plans
+    description: "Five year plans model for storing five year plans entries"
+  - name: xrg_guest_check
+    description: "Guest check model for storing guest check entries"
+  - name: xrg_auv
+    description: "Average unit volume model for storing auv entries"
+  - name: xrg_sales_hourly
+    description: "Hourly sales model for storing hourly sales entries"
+  - name: xrg_rent_roll
+    description: "Rent roll model for storing rent roll entries"
+  - name: xrg_profit_and_loss_enhanced
+    description: "Staged profit and loss model for storing staged profit and loss entries"
+  - name: xrg_revenue_wtd_enhanced
+    description: "Staged revenue week to date model for storing staged revenue week to date entries"
+
+sources:
+  - name: xrg
+    schema: xrg
+    tables:
+      - name: general_ledger_config
+        identifier: xrg_gl_config_data
+      - name: trial_balances
+        identifier: trial_balances
+      - name: report_config
+        identifier: xrg_report_config_data
+      - name: entity_config
+        identifier: xrg_entity_config_data
+      - name: entity_period_config
+        identifier: xrg_entity_period_config_data
+      - name: concept_config
+        identifier: xrg_concept_config_data
+      - name: period_config
+        identifier: xrg_period_config_data
+      - name: city_config
+        identifier: xrg_city_config_data
+      - name: state_config
+        identifier: xrg_state_config_data
+      - name: location_type_config
+        identifier: xrg_location_type_config_data
+      - name: revenue_wtd
+        identifier: revenue_wtd
+      - name: public_equities
+        identifier: public_equities
+      - name: headcount
+        identifier: headcount
+      - name: five_year_plans
+        identifier: five_year_plans
+      - name: guest_check
+        identifier: guest_check
+      - name: fiscal_calendar
+        identifier: xrg_fiscal_calendar
+      - name: sales_hourly
+        identifier: sales_hourly
+      - name: xrg_profit_and_loss_staged
+        identifier: xrg_profit_and_loss_staged
+      - name: rent_roll
+        identifier: rent_roll
+      - name: census
+        identifier: census
+      - name: trial_balances_manual
+        identifier: trial_balances_manual

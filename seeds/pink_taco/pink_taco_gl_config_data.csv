@@ -1,0 +1,759 @@
+gl_number,gl_name,category_id,category_name,subcategory_ids,subcategory_names,company_id,company_name
+10101,WELLS FARGO-NR LOC SEQ 455,3,Assets,3.1,Current Assets,6,pink_taco
+10101,WELLS FARGO-NR LOC SEQ 455,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10102,WELLS FARGO-CONCENTRATION,3,Assets,3.1,Current Assets,6,pink_taco
+10102,WELLS FARGO-CONCENTRATION,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10103,WELLS FARGO-LIQUOR DISBURSEMENT,3,Assets,3.1,Current Assets,6,pink_taco
+10103,WELLS FARGO-LIQUOR DISBURSEMENT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10104,WELLS FARGO-DEPOSITORY CLEARING,3,Assets,3.1,Current Assets,6,pink_taco
+10104,WELLS FARGO-DEPOSITORY CLEARING,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10105,WELLS FARGO-DEPOSITORY,3,Assets,3.1,Current Assets,6,pink_taco
+10105,WELLS FARGO-DEPOSITORY,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10106,WELLS FARGO-A/P DISBURSEMNET,3,Assets,3.1,Current Assets,6,pink_taco
+10106,WELLS FARGO-A/P DISBURSEMNET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10106,WELLS FARGO-A/P DISBURSEMNET,3,Assets,4.3,Accounts Payable,6,pink_taco
+10107,WELLS FARGO-A/P CLEARING,3,Assets,3.1,Current Assets,6,pink_taco
+10107,WELLS FARGO-A/P CLEARING,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10107,WELLS FARGO-A/P CLEARING,3,Assets,4.3,Accounts Payable,6,pink_taco
+10108,WELLS FARGO-VDI,3,Assets,3.1,Current Assets,6,pink_taco
+10108,WELLS FARGO-VDI,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10109,WELLS FARGO-PAYROLL ACCT,3,Assets,3.1,Current Assets,6,pink_taco
+10109,WELLS FARGO-PAYROLL ACCT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10110,WELLS FARGO-DIRECT DEPOSIT,3,Assets,3.1,Current Assets,6,pink_taco
+10110,WELLS FARGO-DIRECT DEPOSIT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10111,CITI BANK- GEN LIABILITY,3,Assets,3.1,Current Assets,6,pink_taco
+10111,CITI BANK- GEN LIABILITY,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10112,CITI BANK- WC,3,Assets,3.1,Current Assets,6,pink_taco
+10112,CITI BANK- WC,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10113,WF OVERNIGHT SWEEP ACCOUNT,3,Assets,3.1,Current Assets,6,pink_taco
+10113,WF OVERNIGHT SWEEP ACCOUNT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10114,CASH-STORE REGISTER FUNDS,3,Assets,3.1,Current Assets,6,pink_taco
+10114,CASH-STORE REGISTER FUNDS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10115,WELLS FARGO-SUNSET IMPREST,3,Assets,3.1,Current Assets,6,pink_taco
+10115,WELLS FARGO-SUNSET IMPREST,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10116,WELLS FARGO-SUNSET TRUCK IMPREST,3,Assets,3.1,Current Assets,6,pink_taco
+10116,WELLS FARGO-SUNSET TRUCK IMPREST,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10117,WELLS FARGO-UTILITIES SECURITY DEPOSITS,3,Assets,3.1,Current Assets,6,pink_taco
+10117,WELLS FARGO-UTILITIES SECURITY DEPOSITS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10118,WELLS FARGO-MIAMI IMPREST,3,Assets,3.1,Current Assets,6,pink_taco
+10118,WELLS FARGO-MIAMI IMPREST,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10119,WELLS FARGO - CHICAGO IMPREST,3,Assets,3.1,Current Assets,6,pink_taco
+10119,WELLS FARGO - CHICAGO IMPREST,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10120,"PARTNER BANK OF CA - FM RESTAURANTS HQ, LLC",3,Assets,3.1,Current Assets,6,pink_taco
+10120,"PARTNER BANK OF CA - FM RESTAURANTS HQ, LLC",3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10121,"PARTNER BANK OF CA - FM RESTAURANTS EL TORITO, LLC",3,Assets,3.1,Current Assets,6,pink_taco
+10121,"PARTNER BANK OF CA - FM RESTAURANTS EL TORITO, LLC",3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10122,"PARTNER BANK OF CA - FM RESTAURANTS ACAPULCO OPCO, LLC",3,Assets,3.1,Current Assets,6,pink_taco
+10122,"PARTNER BANK OF CA - FM RESTAURANTS ACAPULCO OPCO, LLC",3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10123,PARTNER BANK OF CA - FM RESTAURANTS CHEVYS OPCO LLC,3,Assets,3.1,Current Assets,6,pink_taco
+10123,PARTNER BANK OF CA - FM RESTAURANTS CHEVYS OPCO LLC,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10124,PARTNER BANK OF CA - FM RESTAURANTS SIGNATURE LLC,3,Assets,3.1,Current Assets,6,pink_taco
+10124,PARTNER BANK OF CA - FM RESTAURANTS SIGNATURE LLC,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10125,"PARTNER BANK OF CA - FM RESTAURANTS LAS BRISAS OPCO, LLC",3,Assets,3.1,Current Assets,6,pink_taco
+10125,"PARTNER BANK OF CA - FM RESTAURANTS LAS BRISAS OPCO, LLC",3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10126,PARTNER BANK OF CA - PT OPCO LLC,3,Assets,3.1,Current Assets,6,pink_taco
+10126,PARTNER BANK OF CA - PT OPCO LLC,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10127,ORIGIN BANK - COLLEYVILLE,3,Assets,3.1,Current Assets,6,pink_taco
+10127,ORIGIN BANK - COLLEYVILLE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10128,ORIGIN BANK - FORT WORTH,3,Assets,3.1,Current Assets,6,pink_taco
+10128,ORIGIN BANK - FORT WORTH,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10129,ORIGIN BANK - RIM BURLESON,3,Assets,3.1,Current Assets,6,pink_taco
+10129,ORIGIN BANK - RIM BURLESON,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10130,ORIGIN BANK - RIO BURLESON,3,Assets,3.1,Current Assets,6,pink_taco
+10130,ORIGIN BANK - RIO BURLESON,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10131,ORIGIN BANK - WATERSIDE,3,Assets,3.1,Current Assets,6,pink_taco
+10131,ORIGIN BANK - WATERSIDE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10132,ORIGIN BANK - WEATHERFORD,3,Assets,3.1,Current Assets,6,pink_taco
+10132,ORIGIN BANK - WEATHERFORD,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10201,A/R-TRADE,3,Assets,3.1,Current Assets,6,pink_taco
+10201,A/R-TRADE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10201,A/R-TRADE,3,Assets,3.7,Accounts Receivable,6,pink_taco
+10202,CC-AMERICAN EXPRESS,3,Assets,3.1,Current Assets,6,pink_taco
+10202,CC-AMERICAN EXPRESS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10203,CC-DINERS CLUB,3,Assets,3.1,Current Assets,6,pink_taco
+10203,CC-DINERS CLUB,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10204,CC-DISCOVER CARD,3,Assets,3.1,Current Assets,6,pink_taco
+10204,CC-DISCOVER CARD,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10205,CC-VISA/MASTERCARD,3,Assets,3.1,Current Assets,6,pink_taco
+10205,CC-VISA/MASTERCARD,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10206,RIO MAMBO - INFLOWS,3,Assets,3.1,Current Assets,6,pink_taco
+10206,RIO MAMBO - INFLOWS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10290,DUE TO/FROM SOL,3,Assets,3.1,Current Assets,6,pink_taco
+10290,DUE TO/FROM SOL,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10291,A/R-RESERVE TRADE,3,Assets,3.1,Current Assets,6,pink_taco
+10291,A/R-RESERVE TRADE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10291,A/R-RESERVE TRADE,3,Assets,3.7,Accounts Receivable,6,pink_taco
+10301,SUB TENANTS RECEIVABLES,3,Assets,3.1,Current Assets,6,pink_taco
+10301,SUB TENANTS RECEIVABLES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10302,FRANCHISEES RECEIVABLES,3,Assets,3.1,Current Assets,6,pink_taco
+10302,FRANCHISEES RECEIVABLES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10303,EMPLOYEE RECOVERABLES,3,Assets,3.1,Current Assets,6,pink_taco
+10303,EMPLOYEE RECOVERABLES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10304,MISC RECEIVABLES,3,Assets,3.1,Current Assets,6,pink_taco
+10304,MISC RECEIVABLES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10305,A/R-PINK TACO,3,Assets,3.1,Current Assets,6,pink_taco
+10305,A/R-PINK TACO,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10305,A/R-PINK TACO,3,Assets,3.7,Accounts Receivable,6,pink_taco
+10306,TI RECEIVABLE,3,Assets,3.1,Current Assets,6,pink_taco
+10306,TI RECEIVABLE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10390,A/R-RESERVE FRANCHISEE,3,Assets,3.1,Current Assets,6,pink_taco
+10390,A/R-RESERVE FRANCHISEE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10390,A/R-RESERVE FRANCHISEE,3,Assets,3.7,Accounts Receivable,6,pink_taco
+10401,INVENTORY-FOOD (Net of Provision),3,Assets,3.1,Current Assets,6,pink_taco
+10401,INVENTORY-FOOD (Net of Provision),3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10401,INVENTORY-FOOD (Net of Provision),3,Assets,3.6,Inventories,6,pink_taco
+10401,INVENTORY-FOOD (Net of Provision),3,Assets,2.3,Purchases,6,pink_taco
+10402,INVENTORY-LIQUOR (Net of Provision),3,Assets,3.1,Current Assets,6,pink_taco
+10402,INVENTORY-LIQUOR (Net of Provision),3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10402,INVENTORY-LIQUOR (Net of Provision),3,Assets,3.6,Inventories,6,pink_taco
+10402,INVENTORY-LIQUOR (Net of Provision),3,Assets,2.3,Purchases,6,pink_taco
+10403,INVENTORY-RETAIL,3,Assets,3.1,Current Assets,6,pink_taco
+10403,INVENTORY-RETAIL,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10404,ADVANCED PURCHASES,3,Assets,3.1,Current Assets,6,pink_taco
+10404,ADVANCED PURCHASES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10501,PREPAID INSURANCE,3,Assets,3.1,Current Assets,6,pink_taco
+10501,PREPAID INSURANCE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10502,PREPAID LICENSES,3,Assets,3.1,Current Assets,6,pink_taco
+10502,PREPAID LICENSES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10503,PREPAID SOFTWARE MAINTENANCE,3,Assets,3.1,Current Assets,6,pink_taco
+10503,PREPAID SOFTWARE MAINTENANCE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10504,PREPAID TAXES,3,Assets,3.1,Current Assets,6,pink_taco
+10504,PREPAID TAXES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10505,PREPAID OCCUPANCY,3,Assets,3.1,Current Assets,6,pink_taco
+10505,PREPAID OCCUPANCY,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10506,PREPAID ADVERTISING,3,Assets,3.1,Current Assets,6,pink_taco
+10506,PREPAID ADVERTISING,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10507,PREPAID OTHER,3,Assets,3.1,Current Assets,6,pink_taco
+10507,PREPAID OTHER,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10508,PROFESSIONAL FEE RETAINERS,3,Assets,3.1,Current Assets,6,pink_taco
+10508,PROFESSIONAL FEE RETAINERS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10509,PREPAID OCCUPANCY CAM,3,Assets,3.1,Current Assets,6,pink_taco
+10509,PREPAID OCCUPANCY CAM,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10510,PREPAID OCCUPANCY TAX & UTILITIES,3,Assets,3.1,Current Assets,6,pink_taco
+10510,PREPAID OCCUPANCY TAX & UTILITIES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10511,FINTECH CONTROL ACCOUNT,3,Assets,3.1,Current Assets,6,pink_taco
+10511,FINTECH CONTROL ACCOUNT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10512,FEDEX CONTROL ACCOUNT,3,Assets,3.1,Current Assets,6,pink_taco
+10512,FEDEX CONTROL ACCOUNT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10601,FAVOR LSE-ASSET-ST,3,Assets,3.1,Current Assets,6,pink_taco
+10601,FAVOR LSE-ASSET-ST,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+10602,UNFAVOR LSE-LIAB-ST,3,Assets,3.1,Current Assets,6,pink_taco
+10602,UNFAVOR LSE-LIAB-ST,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+10603,MARKETING-LIQUOR FUNDS-DEBIT,3,Assets,3.1,Current Assets,6,pink_taco
+10603,MARKETING-LIQUOR FUNDS-DEBIT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10604,XRG DEBT ISSUANCE COST-S/T,3,Assets,3.1,Current Assets,6,pink_taco
+10604,XRG DEBT ISSUANCE COST-S/T,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+10699,PAID IN/OUT CLEARING,3,Assets,3.1,Current Assets,6,pink_taco
+10699,PAID IN/OUT CLEARING,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12101,BUILDING-ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12101,BUILDING-ASSET,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12102,FURNITURE & FIXTURES,3,Assets,3.2,Non Current Assets,6,pink_taco
+12102,FURNITURE & FIXTURES,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12103,IT COMPUTER HARDWARE/SOFTWARE,3,Assets,3.2,Non Current Assets,6,pink_taco
+12103,IT COMPUTER HARDWARE/SOFTWARE,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12104,EQUIPMENT-ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12104,EQUIPMENT-ASSET,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12105,LEASEHOLD IMPROVEMENT,3,Assets,3.2,Non Current Assets,6,pink_taco
+12105,LEASEHOLD IMPROVEMENT,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12106,IMPAIRMENT RESERVE,3,Assets,3.2,Non Current Assets,6,pink_taco
+12106,IMPAIRMENT RESERVE,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12107,SMALLWARES,3,Assets,3.2,Non Current Assets,6,pink_taco
+12107,SMALLWARES,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12108,AUTOS & TRUCKS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12108,AUTOS & TRUCKS,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12201,CONSTRUCTION IN PROCESS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12201,CONSTRUCTION IN PROCESS,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12202,FIXED ASSETS CLEARING,3,Assets,3.2,Non Current Assets,6,pink_taco
+12202,FIXED ASSETS CLEARING,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12203,CIP CLEARING,3,Assets,3.2,Non Current Assets,6,pink_taco
+12203,CIP CLEARING,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12301,ACC DEP-BUILDINGS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12301,ACC DEP-BUILDINGS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12302,ACC DEP-FURNITURE & FIXTURES,3,Assets,3.2,Non Current Assets,6,pink_taco
+12302,ACC DEP-FURNITURE & FIXTURES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12303,ACC DEP-IT COMPUTER HARDW/SFTW,3,Assets,3.2,Non Current Assets,6,pink_taco
+12303,ACC DEP-IT COMPUTER HARDW/SFTW,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12304,ACC DEP-EQUIPMENT,3,Assets,3.2,Non Current Assets,6,pink_taco
+12304,ACC DEP-EQUIPMENT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12305,ACC DEP-LEASEHOLD IMPROVEMENTS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12305,ACC DEP-LEASEHOLD IMPROVEMENTS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12308,ACC DEP-AUTOS & TRUCKS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12308,ACC DEP-AUTOS & TRUCKS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12501,GOODWILL,3,Assets,3.2,Non Current Assets,6,pink_taco
+12501,GOODWILL,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12502,ACC AMORTIZATION - GOODWILL,3,Assets,3.2,Non Current Assets,6,pink_taco
+12502,ACC AMORTIZATION - GOODWILL,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12503,TRADEMARKS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12503,TRADEMARKS,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12504,DOMAIN NAME,3,Assets,3.2,Non Current Assets,6,pink_taco
+12504,DOMAIN NAME,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12505,ACCUM AMORTIZATION - TRADEMARKS,3,Assets,3.2,Non Current Assets,6,pink_taco
+12505,ACCUM AMORTIZATION - TRADEMARKS,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12601,LIQUOR LICENSE-MARKETABLE,3,Assets,3.2,Non Current Assets,6,pink_taco
+12601,LIQUOR LICENSE-MARKETABLE,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12602,FAVOR LSE-ASSET-LT,3,Assets,3.2,Non Current Assets,6,pink_taco
+12602,FAVOR LSE-ASSET-LT,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12603,UNFAVOR LSE-LIAB-LT,3,Assets,3.2,Non Current Assets,6,pink_taco
+12603,UNFAVOR LSE-LIAB-LT,3,Assets,3.5,Cash flow from Investing Activities,6,pink_taco
+12604,RESTRICTED CASH,3,Assets,3.1,Current Assets,6,pink_taco
+12604,RESTRICTED CASH,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12605,DEPOSITS-ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12605,DEPOSITS-ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12606,CASH COLLATERAL for Workers Comp Liability,3,Assets,3.1,Current Assets,6,pink_taco
+12606,CASH COLLATERAL for Workers Comp Liability,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12607,ACCUM AMORTIZATION - FAV LEASE ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12607,ACCUM AMORTIZATION - FAV LEASE ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12608,ACCUM AMORTIZATION - UNFAV LEASE ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12608,ACCUM AMORTIZATION - UNFAV LEASE ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12701,COSTCO DEFERRED DISCOUNT,3,Assets,3.1,Current Assets,6,pink_taco
+12701,COSTCO DEFERRED DISCOUNT,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12702,XRG DEBT ISSUANCE COST-L/T,3,Assets,3.2,Non Current Assets,6,pink_taco
+12702,XRG DEBT ISSUANCE COST-L/T,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12703,DEFERRED EXPENSES,3,Assets,3.2,Non Current Assets,6,pink_taco
+12703,DEFERRED EXPENSES,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12704,LOYALTY DISCOUNT DEFERRED ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12704,LOYALTY DISCOUNT DEFERRED ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12705,ASC 842 RIGHT OF USE ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12705,ASC 842 RIGHT OF USE ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12706,ASC 842 ACCUMULATED AMORTIZATION ROU ASSET,3,Assets,3.2,Non Current Assets,6,pink_taco
+12706,ASC 842 ACCUMULATED AMORTIZATION ROU ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+12801,INTERCOMPANY RECEIVABLES-ASSET,3,Assets,3.1,Current Assets,6,pink_taco
+12801,INTERCOMPANY RECEIVABLES-ASSET,3,Assets,3.3,Cash flow from Operating Activities,6,pink_taco
+20101,A/P TRADE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20101,A/P TRADE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20101,A/P TRADE,4,Liabilities,4.3,Accounts Payable,6,pink_taco
+20102,A/P PO ACCRUAL,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20102,A/P PO ACCRUAL,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20102,A/P PO ACCRUAL,4,Liabilities,4.3,Accounts Payable,6,pink_taco
+20103,TRADE UNPROCESSED,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20103,TRADE UNPROCESSED,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20104,T&E CREDIT CARD PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20104,T&E CREDIT CARD PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20105,A/P-US BANK,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20105,A/P-US BANK,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20105,A/P-US BANK,4,Liabilities,4.3,Accounts Payable,6,pink_taco
+20106,UNCLAIMED WAGES PRE BK,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20106,UNCLAIMED WAGES PRE BK,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20107,UNCLAIMED CHECKS (AP & PAYROLL),4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20107,UNCLAIMED CHECKS (AP & PAYROLL),4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20108,RIO MAMBO - OUTFLOWS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20108,RIO MAMBO - OUTFLOWS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20109,A/P - LSTC - CANCELLED CHECKS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20109,A/P - LSTC - CANCELLED CHECKS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20109,A/P - LSTC - CANCELLED CHECKS,4,Liabilities,4.3,Accounts Payable,6,pink_taco
+20110,ACCOUNTS PAYABLE - LSTC,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20110,ACCOUNTS PAYABLE - LSTC,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20201,FEDERAL INCOME TAX PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20201,FEDERAL INCOME TAX PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20202,FEDERAL UNEMPLOYEMENT TAX PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20202,FEDERAL UNEMPLOYEMENT TAX PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20203,STATE INCOME TAX PAYALBE-CALIFORNIA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20203,STATE INCOME TAX PAYALBE-CALIFORNIA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20204,STATE INCOME TAX PAYABLE-DC,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20204,STATE INCOME TAX PAYABLE-DC,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20205,STATE INCOME TAX PAYABLE-ILLINOIS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20205,STATE INCOME TAX PAYABLE-ILLINOIS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20206,STATE INCOME TAX PAYABLE-MARYLAND,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20206,STATE INCOME TAX PAYABLE-MARYLAND,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20207,STATE INCOME TAX PAYABLE-MA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20207,STATE INCOME TAX PAYABLE-MA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20208,STATE INCOME TAX PAYALBE-NEVADA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20208,STATE INCOME TAX PAYALBE-NEVADA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20209,STATE INCOME TAX PAYALBE-NEW YORK,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20209,STATE INCOME TAX PAYALBE-NEW YORK,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20210,STATE INCOME TAX PAYABLE-OREGON,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20210,STATE INCOME TAX PAYABLE-OREGON,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20211,STATE INCOME TAX PAYABLE-VIRGINIA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20211,STATE INCOME TAX PAYABLE-VIRGINIA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20212,LOCAL WITHHOLDINGS- CALIFORNIA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20212,LOCAL WITHHOLDINGS- CALIFORNIA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20213,LOCAL WITHHOLDINGS- NEW YORK,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20213,LOCAL WITHHOLDINGS- NEW YORK,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20214,LOCAL WITHHOLDINGS- WASHINGTON,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20214,LOCAL WITHHOLDINGS- WASHINGTON,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20215,SUTA - CALIFORNIA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20215,SUTA - CALIFORNIA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20216,SUTA - FLORIDA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20216,SUTA - FLORIDA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20217,SUTA - ILLINOIS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20217,SUTA - ILLINOIS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20218,SUTA - MARYLAND,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20218,SUTA - MARYLAND,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20219,SUTA - MA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20219,SUTA - MA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20220,PAYROLL TAX LIABILITY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20220,PAYROLL TAX LIABILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20221,SUTA - NEW YORK,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20221,SUTA - NEW YORK,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20222,SUTA - OREGON,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20222,SUTA - OREGON,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20223,SUTA - VIRGINIA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20223,SUTA - VIRGINIA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20224,SUTA - WASHINGTON,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20224,SUTA - WASHINGTON,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20225,VDI/SDI - CA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20225,VDI/SDI - CA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20226,GARNISHMENTS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20226,GARNISHMENTS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20227,401K-EMPLOYEE DEDUCTION,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20227,401K-EMPLOYEE DEDUCTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20228,ACCR-HEALTH INSURANCE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20228,ACCR-HEALTH INSURANCE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20229,OTHER BENEFITS PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20229,OTHER BENEFITS PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20230,ACCR-PAYROLL,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20230,ACCR-PAYROLL,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20231,ACCR-BONUS FIELD,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20231,ACCR-BONUS FIELD,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20232,ACCR-BONUS ADMIN,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20232,ACCR-BONUS ADMIN,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20233,ACCR-VACATION PAY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20233,ACCR-VACATION PAY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20234,TIP CLEARING,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20234,TIP CLEARING,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20235,HISPANIC HERITAGE CHARITY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20235,HISPANIC HERITAGE CHARITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20236,DEFERRED COMPENSATION,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20236,DEFERRED COMPENSATION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20237,ACCR - KERP/KEIP BONUSES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20237,ACCR - KERP/KEIP BONUSES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20301,GIFT CARD-SALES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20301,GIFT CARD-SALES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20302,GIFT CARD-REDEMPTIONS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20302,GIFT CARD-REDEMPTIONS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20303,GIFT CARD-BREAKAGE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20303,GIFT CARD-BREAKAGE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20304,SALES & USE TAX PAY-TX,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20304,SALES & USE TAX PAY-TX,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20305,MIX BEVERAGE & GROSS LIQUOR TAXES PAYABLE-TX,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20305,MIX BEVERAGE & GROSS LIQUOR TAXES PAYABLE-TX,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20306,REAL ESTATE TAX PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20306,REAL ESTATE TAX PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20307,SALES & USE TAX PAY-CA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20307,SALES & USE TAX PAY-CA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20308,SALES & USE TAX PAY-FL,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20308,SALES & USE TAX PAY-FL,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20309,SALES & USE TAX PAY-IL,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20309,SALES & USE TAX PAY-IL,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20310,SALES & USE TAX PAY-MD,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20310,SALES & USE TAX PAY-MD,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20311,SALES & USE TAX PAY-MA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20311,SALES & USE TAX PAY-MA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20312,SALES & USE TAX PAY-NY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20312,SALES & USE TAX PAY-NY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20313,SALES & USE TAX PAY-VA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20313,SALES & USE TAX PAY-VA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20314,SALES & USE TAX PAY-AZ,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20314,SALES & USE TAX PAY-AZ,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20315,SALES & USE TAX PAY-WA,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20315,SALES & USE TAX PAY-WA,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20316,SALES & USE TAX PAY-CO,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20316,SALES & USE TAX PAY-CO,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20317,ACCR-LEGAL EXPENSE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20317,ACCR-LEGAL EXPENSE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20318,ACCR-LEGAL SETTLEMENTS,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20318,ACCR-LEGAL SETTLEMENTS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20319,ACCR-MARKETING-ALLOCATION,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20319,ACCR-MARKETING-ALLOCATION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20320,MARKETING-LIQUOR FUND,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20320,MARKETING-LIQUOR FUND,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20321,ACCR-UTILITY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20321,ACCR-UTILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20322,ACCR-RENT,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20322,ACCR-RENT,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20323,ACCR-CAM,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20323,ACCR-CAM,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20324,ACCR-LEASE TERM FEES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20324,ACCR-LEASE TERM FEES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20325,ACCR-OTHER EXPENSES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20325,ACCR-OTHER EXPENSES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20326,ACCR-SEVERANCE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20326,ACCR-SEVERANCE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20327,ACCR-OTHER TAXES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20327,ACCR-OTHER TAXES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20328,ACCR-AUDIT & TAX FEES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20328,ACCR-AUDIT & TAX FEES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20329,SALES & USE TAX PAY-MO,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20329,SALES & USE TAX PAY-MO,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20330,USE TAX PAYABLE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20330,USE TAX PAYABLE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20331,ACCRUED RESTRUCTURING FEES,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20331,ACCRUED RESTRUCTURING FEES,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20332,CO RETAIL DELIVERY FEE,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20332,CO RETAIL DELIVERY FEE,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20333,SALES & USE TAX PAY-NV,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20333,SALES & USE TAX PAY-NV,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20335,Agency Support,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20335,Agency Support,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20336,Warehouse,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20336,Warehouse,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20337,Media,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20337,Media,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20338,Collateral Menu,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20338,Collateral Menu,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20339,Creative,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20339,Creative,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20340,Material,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20340,Material,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20341,"Events, Off Premise",4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20341,"Events, Off Premise",4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20342,MARKETING ALLOCATION/ACCRUAL,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20342,MARKETING ALLOCATION/ACCRUAL,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20343,Sponsorships,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20343,Sponsorships,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20398,DATA CONVERSION CLEARING - AR,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20398,DATA CONVERSION CLEARING - AR,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20399,DATA CONVERSION CLEARING - AP,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20399,DATA CONVERSION CLEARING - AP,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20401,LOYALTY POINTS EARNED LIABILITY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20401,LOYALTY POINTS EARNED LIABILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20402,LOYALTY POINTS CONVERTED LIABILITY,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20402,LOYALTY POINTS CONVERTED LIABILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20407,PPP INTEREST,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20407,PPP INTEREST,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20408,ACCRUED XRG INTEREST,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20408,ACCRUED XRG INTEREST,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20501,WC-XL POLICY 13/14,4,Liabilities,3.2,Non Current Assets,6,pink_taco
+20501,WC-XL POLICY 13/14,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20502,WC-POLICY 14/15,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20502,WC-POLICY 14/15,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20503,WC-POLICY 15/16,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20503,WC-POLICY 15/16,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20504,WC-POLICY - LONG TERM PORTION,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20504,WC-POLICY - LONG TERM PORTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20505,WC-POLICY - CURRENT PORTION,4,Liabilities,4.1,Current Liabilities,6,pink_taco
+20505,WC-POLICY - CURRENT PORTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20506,GL LIABILITY POLICY 14/15,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20506,GL LIABILITY POLICY 14/15,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20507,GL LIABILITY POLICY 15/16,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20507,GL LIABILITY POLICY 15/16,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20508,GL LIABILITY POLICY 16/17,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20508,GL LIABILITY POLICY 16/17,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20601,DEPOSITS,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20601,DEPOSITS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20602,EVENTS DEPOSITS,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20602,EVENTS DEPOSITS,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20603,DEFERED INCOME,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20603,DEFERED INCOME,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+20604,ASC 842 LEASE LIABILITY - ST,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+20604,ASC 842 LEASE LIABILITY - ST,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22120,N/P-PROPERTY INSURANCE LOAN,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22120,N/P-PROPERTY INSURANCE LOAN,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22121,XRG REVOLVER FACILITY,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22121,XRG REVOLVER FACILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22122,XRG DEBT - CURRENT PORTION,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22122,XRG DEBT - CURRENT PORTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22123,XRG DEBT - LONG-TERM PORTION,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22123,XRG DEBT - LONG-TERM PORTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22124,"PPP LOAN - FM RESTAURANTS HQ, LLC",4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22124,"PPP LOAN - FM RESTAURANTS HQ, LLC",4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22125,"PPP LOAN - FM RESTAURANTS EL TORITO, LLC",4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22125,"PPP LOAN - FM RESTAURANTS EL TORITO, LLC",4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22126,"PPP LOAN - FM RESTAURANTS ACAPULCO OPCO, LLC",4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22126,"PPP LOAN - FM RESTAURANTS ACAPULCO OPCO, LLC",4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22127,PPP LOAN - FM RESTAURANTS CHEVYS OPCO LLC,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22127,PPP LOAN - FM RESTAURANTS CHEVYS OPCO LLC,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22128,PPP LOAN - FM RESTAURANTS SIGNATURE LLC,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22128,PPP LOAN - FM RESTAURANTS SIGNATURE LLC,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22129,"PPP LOAN - FM RESTAURANTS LAS BRISAS OPCO, LLC",4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22129,"PPP LOAN - FM RESTAURANTS LAS BRISAS OPCO, LLC",4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22130,PPP LOAN - PT OPCO LLC,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22130,PPP LOAN - PT OPCO LLC,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22201,CAPITAL LEASE - LT PORTION,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22201,CAPITAL LEASE - LT PORTION,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22202,DEFERRED LIABILITY,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22202,DEFERRED LIABILITY,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22203,ASC 842 LEASE LIABILITY - LT,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22203,ASC 842 LEASE LIABILITY - LT,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+22301,INTERCOMPANY PAYABLES-LIAB,4,Liabilities,4.2,Non Current Liabilities,6,pink_taco
+22301,INTERCOMPANY PAYABLES-LIAB,4,Liabilities,3.3,Cash flow from Operating Activities,6,pink_taco
+31001,MEMBERS' EQUITY,5,Owners Equity,4.2,Non Current Liabilities,6,pink_taco
+31001,MEMBERS' EQUITY,5,Owners Equity,3.3,Cash flow from Operating Activities,6,pink_taco
+31001,MEMBERS' EQUITY,5,Owners Equity,5.1,Equity,6,pink_taco
+32001,RETAINED EARNINGS,5,Owners Equity,4.2,Non Current Liabilities,6,pink_taco
+32001,RETAINED EARNINGS,5,Owners Equity,3.3,Cash flow from Operating Activities,6,pink_taco
+32001,RETAINED EARNINGS,5,Owners Equity,5.1,Equity,6,pink_taco
+41001,FOOD SALES - ALL,1,Revenue,,,6,pink_taco
+42011,BEER SALES,1,Revenue,,,6,pink_taco
+42021,COCKTAILS AND SPIRITS SALES,1,Revenue,,,6,pink_taco
+42031,WINE SALES,1,Revenue,,,6,pink_taco
+43001,MERCHANDISE SALES,1,Revenue,,,6,pink_taco
+43101,SURCHARGES,1,Revenue,,,6,pink_taco
+43102,DELIVERY FEE REVENUE,1,Revenue,,,6,pink_taco
+43201,GC BREAKAGE,1,Revenue,,,6,pink_taco
+43202,LOYALTY POINTS BREAKAGE,1,Revenue,,,6,pink_taco
+44001,PROMOTIONAL DISCOUNTS,1,Revenue,,,6,pink_taco
+44002,INSTITUTIONAL DISCOUNTS,1,Revenue,,,6,pink_taco
+44003,GUEST RELATIONS AND SERVICE DISCOUNTS,1,Revenue,,,6,pink_taco
+44004,STAFF DISCOUNTS,1,Revenue,,,6,pink_taco
+44005,MRC DISCOUNTS,1,Revenue,,,6,pink_taco
+44006,COSTCO DISCOUNTS,1,Revenue,,,6,pink_taco
+44007,LOYALTY POINTS DISCOUNTS,1,Revenue,,,6,pink_taco
+44008,TX MIXED BEVERAGE GROSS RECEIPT TAX,1,Revenue,,,6,pink_taco
+45001,COVER CHARGES INCOME,1,Revenue,,,6,pink_taco
+46001,OTHER (INCOME) - VALET,1,Revenue,,,6,pink_taco
+46002,OTHER (INCOME) - PARKING LOT,1,Revenue,,,6,pink_taco
+46003,OTHER (INCOME) - BANQUET RENTAL,1,Revenue,,,6,pink_taco
+46004,OTHER (INCOME) - INTEREST,1,Revenue,,,6,pink_taco
+46005,OTHER (INCOME) - OTHER,1,Revenue,,,6,pink_taco
+46007,OTHER(INCOME)-DEBT EXTINGUISHMENT,1,Revenue,,,6,pink_taco
+46101,OTHER (INCOME) - FRANCHISE ROYALTY,1,Revenue,,,6,pink_taco
+46102,OTHER (INCOME) - FRANCHISE MERCHANDISE,1,Revenue,,,6,pink_taco
+46103,OTHER (INCOME) - MERCHANDISE ROYALTY,1,Revenue,,,6,pink_taco
+46104,OTHER (INCOME) - MGMT FEE,1,Revenue,,,6,pink_taco
+51001,RED MEAT,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51002,PORK,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51003,POULTRY,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51004,SEAFOOD,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51005,PRODUCE - AVOCADO,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51006,PRODUCE - TOMATO,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51007,PRODUCE - OTHER,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51008,GROCERY,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51009,CHEESE,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51010,DAIRY,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51011,SPICES/BASES,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51012,"BEVERAGE, SODA, SYRUP",2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51013,CHIPS,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51014,TORTILLAS/BAKERY,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51098,PREPARED FOOD,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+51099,SUPPLIER DISCOUNT,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52011,BEER - BTL,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52012,BEER - DFT,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52021,COCKTAILS & SPIRITS,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52031,WINE,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52091,CORKAGE,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+52099,PREPARED LIQUOR,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+53001,TRUCKING,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+53002,MERCHANDISE,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+53003,OTHER COG EXPENSE,2,Expense,2.1,Cost of Goods Sold,6,pink_taco
+61101,HOURLY P/R - SERVICE,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61102,HOURLY P/R - SERVICE TRAINING,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61103,HOURLY P/R - SERVICE - OT/VIOLATIONS,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61104,SICK PAY,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61201,HOURLY P/R - CULINARY,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61202,HOURLY P/R - CULINARY TRAINING,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61203,HOURLY P/R - CULINARY - OT/VIOLATIONS,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61301,HOURLY P/R - SUPPORT,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61302,HOURLY P/R - JANITORIAL,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61303,HOURLY P/R - SUPPORT/JANITORIAL TRAINING,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61304,HOURLY P/R - SUPPORT/JANITORIAL - OT/VIOLATIONS,2,Expense,2.4,Total Hourly Labour,6,pink_taco
+61401,HOURLY P/R - ASSISTANT MANAGER,2,Expense,2.5,Total Salary,6,pink_taco
+61402,HOURLY  P/R - MIT,2,Expense,2.5,Total Salary,6,pink_taco
+61403,HOURLY P/R - MANAGEMENT - OT/VIOLATIONS,2,Expense,2.5,Total Salary,6,pink_taco
+62101,SALARY - OPS/ADMIN MANAGEMENT,2,Expense,2.5,Total Salary,6,pink_taco
+62102,SALARY - SALES MGMT,2,Expense,2.5,Total Salary,6,pink_taco
+62103,SEVERANCE PAY,2,Expense,2.5,Total Salary,6,pink_taco
+62104,CAPITALIZED SALARY,2,Expense,,,6,pink_taco
+62201,VACATION EXPENSE,2,Expense,,,6,pink_taco
+63101,BONUS,2,Expense,,,6,pink_taco
+63102,COMMISSION,2,Expense,,,6,pink_taco
+64101,FICA,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64102,MEDICARE,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64103,STATE UNEMPLOYMENT,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64104,FED UNEMPLOYMENT,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64105,OTHER P/R TAX,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64201,WORK COMP - ULTIMATE LOSS,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64202,WORK COMP - PREMIUMS,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64301,HEALTH INSURANCE,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64302,GROUP TERM LIFE,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+64303,OTHER BENEFITS,2,Expense,2.6,Total Taxes & Benefits,6,pink_taco
+71101,OPERATING SUPPLIES,2,Expense,,,6,pink_taco
+71102,KITCHENWARE,2,Expense,,,6,pink_taco
+71103,SERVICEWARE,2,Expense,,,6,pink_taco
+71104,LINEN RENTAL,2,Expense,,,6,pink_taco
+71105,UNIFORM,2,Expense,,,6,pink_taco
+71106,FREIGHT CHARGES,2,Expense,,,6,pink_taco
+71107,TO GO SUPPLIES,2,Expense,,,6,pink_taco
+71111,CLEANING SUPPLIES,2,Expense,,,6,pink_taco
+71151,OFFICE  SUPPLIES,2,Expense,,,6,pink_taco
+71152,POSTAGE,2,Expense,,,6,pink_taco
+71153,PRINTING COSTS,2,Expense,,,6,pink_taco
+71154,COMPUTER SUPPLIES,2,Expense,,,6,pink_taco
+71155,SOFTWARE LICENSE,2,Expense,,,6,pink_taco
+71201,EQUIP RENTAL/LEASE EXPENSE,2,Expense,,,6,pink_taco
+71202,BANQUET EQUIP RENTAL/SUPPLIES/KEG DEPOSITS,2,Expense,,,6,pink_taco
+71301,ELECTRICAL,2,Expense,,,6,pink_taco
+71302,PLUMBING,2,Expense,,,6,pink_taco
+71303,HVAC,2,Expense,,,6,pink_taco
+71304,FLOOR - CARPET/TILE/GROUT,2,Expense,,,6,pink_taco
+71305,UPHOLSTERY,2,Expense,,,6,pink_taco
+71306,BUILDING,2,Expense,,,6,pink_taco
+71307,EQUIPMENT,2,Expense,,,6,pink_taco
+71308,IT DEPOT ALLOCATION,2,Expense,,,6,pink_taco
+71399,R&M - OTHER,2,Expense,,,6,pink_taco
+71411,ALARM MONITORING,2,Expense,,,6,pink_taco
+71412,FIRE SUPPRESSION,2,Expense,,,6,pink_taco
+71413,GREASE TRAP CLEANING,2,Expense,,,6,pink_taco
+71414,HOOD CLEANING,2,Expense,,,6,pink_taco
+71416,PEST CONTROL,2,Expense,,,6,pink_taco
+71417,SECURITY,2,Expense,,,6,pink_taco
+71418,HVAC/REFRIGERATION PREVENTATIVE MAINTENANCE,2,Expense,,,6,pink_taco
+71419,OTHER - FAC,2,Expense,,,6,pink_taco
+71421,CARPET CLEANING,2,Expense,,,6,pink_taco
+71422,LANDSCAPING,2,Expense,,,6,pink_taco
+71423,MUSIC SERVICES/LICENSES,2,Expense,,,6,pink_taco
+71429,OTHER-GM,2,Expense,,,6,pink_taco
+71431,CABLE/SAT TV,2,Expense,,,6,pink_taco
+71441,CLEANING SERVICES,2,Expense,,,6,pink_taco
+71442,SYSTEMS,2,Expense,,,6,pink_taco
+71451,OUTSIDE STORAGE,2,Expense,,,6,pink_taco
+71452,CALL CENTER EXPENSES,2,Expense,,,6,pink_taco
+71501,CREDIT CARD FEES EXPENSE,2,Expense,,,6,pink_taco
+71601,ENTERTAINMENT EXPENSE,2,Expense,,,6,pink_taco
+71701,ELECTRICITY,2,Expense,,,6,pink_taco
+71702,WATER / SEWER,2,Expense,,,6,pink_taco
+71703,TRASH COLLECTIONS,2,Expense,,,6,pink_taco
+71704,TELEPHONE,2,Expense,,,6,pink_taco
+71705,NATURAL GAS/GAS DIRECT,2,Expense,,,6,pink_taco
+71706,MESQUITE GAS,2,Expense,,,6,pink_taco
+71801,DELIVERY FEES,2,Expense,,,6,pink_taco
+72101,MARKETING – MARKET RESEARCH,2,Expense,,,6,pink_taco
+72103,MARKETING – AGENCY FEES,2,Expense,,,6,pink_taco
+72104,MARKETING – WAREHOUSE,2,Expense,,,6,pink_taco
+72105,MARKETING – PUBLIC RELATIONS,2,Expense,,,6,pink_taco
+72106,MARKETING – GUEST RELATIONS,2,Expense,,,6,pink_taco
+72107,MARKETING – WEBSITE,2,Expense,,,6,pink_taco
+72108,MARKETING – PARTNERSHIP/SCHOLARSHIP,2,Expense,,,6,pink_taco
+72109,MARKETING – LSM/CORPORATE,2,Expense,,,6,pink_taco
+72110,MARKETING – LICENSING,2,Expense,,,6,pink_taco
+72111,MARKETING – MERCHANDISE,2,Expense,,,6,pink_taco
+72112,MARKETING – FRANCHISEES,2,Expense,,,6,pink_taco
+72113,MARKETING – LOYALTY,2,Expense,,,6,pink_taco
+72114,MARKETING – PROMOTIONS,2,Expense,,,6,pink_taco
+72121,MEDIA – RADIO,2,Expense,,,6,pink_taco
+72122,MEDIA – NEWSPAPER,2,Expense,,,6,pink_taco
+72123,MEDIA – MAGAZINE,2,Expense,,,6,pink_taco
+72124,MEDIA – OUTDOOR,2,Expense,,,6,pink_taco
+72125,MEDIA – DIRECT MAIL,2,Expense,,,6,pink_taco
+72126,MEDIA – DIGITAL/SOCIAL,2,Expense,,,6,pink_taco
+72127,"MEDIA – EVENTS, CATERING & TO GO",2,Expense,,,6,pink_taco
+72128,MEDIA – TELEVISION,2,Expense,,,6,pink_taco
+72131,COLLATERAL – MENUS,2,Expense,,,6,pink_taco
+72132,COLLATERAL – PHOTOSHOOT/VIDEO SHOOTS,2,Expense,,,6,pink_taco
+72133,COLLATERAL – OTHER,2,Expense,,,6,pink_taco
+72134,"COLLATERAL – EVENTS, CATERING, TO GO",2,Expense,,,6,pink_taco
+72181,ADVERTISING BUDGET ALLOCATION,2,Expense,,,6,pink_taco
+72182,ADVERTISING OFFSET,2,Expense,,,6,pink_taco
+72201,LOCAL STORE MARKETING/COLLATERAL,2,Expense,,,6,pink_taco
+72202,LOCAL STORE MARKETING - WAGES,2,Expense,,,6,pink_taco
+73101,LICENSE/PERMITS - LIQUOR,2,Expense,,,6,pink_taco
+73102,LICENSE/PERMITS - OTHER,2,Expense,,,6,pink_taco
+73103,FTB LLC FEES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+73201,T&E - AUTO ALLOWANCE,2,Expense,,,6,pink_taco
+73202,T&E - AUTO OTHER,2,Expense,,,6,pink_taco
+73203,T&E - AIR,2,Expense,,,6,pink_taco
+73204,T&E - LODGING,2,Expense,,,6,pink_taco
+73205,T&E - MEALS,2,Expense,,,6,pink_taco
+73206,T&E - OTHER,2,Expense,,,6,pink_taco
+73207,CELL PHONE,2,Expense,,,6,pink_taco
+73301,MEETINGS & CONVENTIONS,2,Expense,,,6,pink_taco
+73302,DUES & SUBSCRIPTION,2,Expense,,,6,pink_taco
+73401,RECRUITING - AGENCY FEES,2,Expense,,,6,pink_taco
+73402,RECRUITING - OTHER,2,Expense,,,6,pink_taco
+73403,REFERRAL BONUS,2,Expense,,,6,pink_taco
+73501,EMPLOYEE RELATIONS EXPENSE,2,Expense,,,6,pink_taco
+73502,CONTINUING EDUCATION,2,Expense,,,6,pink_taco
+73503,MOVING EXPENSE,2,Expense,,,6,pink_taco
+73504,MRC COST,2,Expense,,,6,pink_taco
+73505,MRC ADMIN FEE,2,Expense,,,6,pink_taco
+73601,TRAINING EXPENSES,2,Expense,,,6,pink_taco
+73701,LEGAL EXPENSE - ADA,2,Expense,,,6,pink_taco
+73702,LEGAL EXPENSE - CORP,2,Expense,,,6,pink_taco
+73703,LEGAL EXPENSE - EMP MATTERS,2,Expense,,,6,pink_taco
+73704,LEGAL EXPENSE - RISK,2,Expense,,,6,pink_taco
+73705,LEGAL EXPENSE - REAL ESTATE,2,Expense,,,6,pink_taco
+73709,LEGAL EXPENSE - OTHER,2,Expense,,,6,pink_taco
+73801,LEGAL SETTLEMENTS - ADA,2,Expense,,,6,pink_taco
+73802,LEGAL SETTLEMENTS - CORP,2,Expense,,,6,pink_taco
+73803,LEGAL SETTLEMENTS - EMP MATTERS,2,Expense,,,6,pink_taco
+73804,LEGAL SETTLEMENTS - RISK,2,Expense,,,6,pink_taco
+73805,LEGAL SETTLEMENTS - REAL ESTATE,2,Expense,,,6,pink_taco
+73809,LEGAL SETTLEMENTS - OTHER,2,Expense,,,6,pink_taco
+73901,AUDIT SERVICE,2,Expense,,,6,pink_taco
+73902,TAX SERVICES,2,Expense,,,6,pink_taco
+73903,ACCOUNTING SERVICES,2,Expense,,,6,pink_taco
+73904,PAYROLL SERVICES,2,Expense,,,6,pink_taco
+73905,BOD FEES,2,Expense,,,6,pink_taco
+73906,MERGERS & ACQUISITION SERVICES,2,Expense,,,6,pink_taco
+73907,PUBLIC RELATIONS,2,Expense,,,6,pink_taco
+73908,OWNERSHIP GROUP,2,Expense,,,6,pink_taco
+73909,INTERNAL PROFESSIONAL SERVICES,2,Expense,,,6,pink_taco
+73910,EXTERNAL BUSINESS CONSULTING SERVICES,2,Expense,,,6,pink_taco
+73911,OTHER CONSULTING,2,Expense,,,6,pink_taco
+74001,2018 BK RESTRUCTURING COSTS,2,Expense,,,6,pink_taco
+74101,(OVER) / SHORT - CASH,2,Expense,,,6,pink_taco
+74102,(OVER) / SHORT - REFUNDS,2,Expense,,,6,pink_taco
+74103,CHARGEBACKS,2,Expense,,,6,pink_taco
+74104,GUEST RELATIONS,2,Expense,,,6,pink_taco
+74201,YEAR-END OPEN AP ACCRUALS,2,Expense,,,6,pink_taco
+75101,RENT - BASE RENT,2,Expense,,,6,pink_taco
+75102,RENT - ASC AMORTIZATION ROU ASSET,2,Expense,,,6,pink_taco
+75103,RENT - PERCENTAGE RENT,2,Expense,,,6,pink_taco
+75109,RENT - OTHER,2,Expense,,,6,pink_taco
+75201,PROPERTY TAX - REAL,2,Expense,,,6,pink_taco
+75202,PROPERTY TAX - PROPERTY,2,Expense,,,6,pink_taco
+75203,COMMON AREA MAINTENANCE,2,Expense,,,6,pink_taco
+76101,GEN LIAB INS - ULTIMATE LOSS,2,Expense,,,6,pink_taco
+76102,GEN LIAB INS - PREMIUMS,2,Expense,,,6,pink_taco
+76103,INSURANCE OTHER,2,Expense,,,6,pink_taco
+77101,BANK SERVICE CHARGES,2,Expense,,,6,pink_taco
+77102,BAD DEBT EXPENSE,2,Expense,,,6,pink_taco
+77103,CHARITY / GIVE AWAYS,2,Expense,,,6,pink_taco
+77104,A/R SUSPENSE EXPENSE,2,Expense,3.7,Accounts Receivable,6,pink_taco
+77201,VALET LABOR,2,Expense,,,6,pink_taco
+77202,PARKING & VALET EXP,2,Expense,,,6,pink_taco
+77203,VALET MANAGEMENT SERVICE,2,Expense,,,6,pink_taco
+77204,FRANCHISE EXPENSES,2,Expense,,,6,pink_taco
+77205,CLOSING EXPENSES,2,Expense,,,6,pink_taco
+77209,OTHER EXPENSE - OTHER,2,Expense,,,6,pink_taco
+78100,MANAGEMENT SERVICES EXPENSE,2,Expense,,,6,pink_taco
+78101,OP PARTNER FEE EXPENSE,2,Expense,,,6,pink_taco
+80101,DEPRECIATION EXPENSE,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80101,DEPRECIATION EXPENSE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80201,AMORTIZATION - GOODWILL,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80201,AMORTIZATION - GOODWILL,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80202,AMORTIZATION - DEBT FEES,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80202,AMORTIZATION - DEBT FEES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80209,AMORTIZATION - FAV/UNFAV LEASES,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80209,AMORTIZATION - FAV/UNFAV LEASES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80301,INTEREST EXPENSE - BANK AND INSURANCE,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80301,INTEREST EXPENSE - BANK AND INSURANCE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80302,INTEREST EXPENSE - LOC,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80302,INTEREST EXPENSE - LOC,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80303,INTEREST EXPENSE - ZCAP/GSB $5M,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80303,INTEREST EXPENSE - ZCAP/GSB $5M,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80304,INTEREST EXPENSE - XRG DEBT AND REVOLVER,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80304,INTEREST EXPENSE - XRG DEBT AND REVOLVER,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80305,INTEREST EXPENSE - DEBT COSTS AND AGENCY FEES,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80305,INTEREST EXPENSE - DEBT COSTS AND AGENCY FEES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80309,INTEREST ON DEFERRAL/PAYMENT PLANS,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80309,INTEREST ON DEFERRAL/PAYMENT PLANS,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80401,F/A (GAIN) LOSS ON SALE OF FIXED ASSETS,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80401,F/A (GAIN) LOSS ON SALE OF FIXED ASSETS,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80402,F/A (GAIN) LOSS ON SALE OF LIQUOR LICENSE,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80402,F/A (GAIN) LOSS ON SALE OF LIQUOR LICENSE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80403,IMPAIRMENT EXPENSE,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80403,IMPAIRMENT EXPENSE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80404,FA (Gain) Loss - Other,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80404,FA (Gain) Loss - Other,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80501,FOOD (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80502,LIQUOR (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80503,LABOR (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80504,TAXES (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80505,SUPPLIES (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80506,UTILITIES (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80507,UNIFORM (POC)S,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80508,T&E (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80509,RENT (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80510,OTHER (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80511,FASB RENT (POC),2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80512,R/E TAXES (POC),2,Expense,,,6,pink_taco
+80601,CLOSING COSTS,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80701,INCOME TAX - FED,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80701,INCOME TAX - FED,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80702,INCOME TAX - STATE,2,Expense,3.3,Cash flow from Operating Activities,6,pink_taco
+80702,INCOME TAX - STATE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80703,OTHER TAXES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+80704,TAX PENALTIES,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+84101,MISC INCOME,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco
+84102,MISC EXPENSE,2,Expense,2.2,"Interest, Taxes, Depreciation and Amortization",6,pink_taco

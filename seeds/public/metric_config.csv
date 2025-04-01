@@ -1,0 +1,113 @@
+metric_id,metric_name,metric_type
+1,Assets,defined
+2,Revenue,defined
+3,Owners Equity,defined
+4,Liabilities,defined
+5,Expense,defined
+6,Current Liabilities,defined
+7,Non Current Liabilities,defined
+8,Purchases,defined
+9,EBITDA Expenses,defined
+10,Accounts Payable,defined
+11,Cash flow from Investing Activities,defined
+12,Non Current Assets,defined
+13,Current Assets,defined
+14,Equity,defined
+15,Inventories,defined
+16,Cash flow from Operating Activities,defined
+17,Accounts Receivable,defined
+18,Cost of Goods Sold,defined
+19,Total Salary,calculated
+20,Net Income,calculated
+21,Gross Profit,calculated
+22,EBITDA,calculated
+23,"Interest, Taxes, Depreciation and Amortization",calculated
+24,Total Taxes & Benefits,calculated
+25,Total Hourly Labour,calculated
+26,DIO,calculated
+27,DSO,calculated
+28,NWC,calculated
+29,DPO,calculated
+30,Cash & cash equivalent at end of period,calculated
+31,Cash & cash equivalent at beginning of period,calculated
+32,Change in cash,calculated
+33,Cash and Cash Equivalents,defined
+34,Trade Receivables,defined
+35,Prepaid Expenses,defined
+36,Intangibles,defined
+37,Accrued Liabilities,defined
+38,Goodwill,defined
+39,License and Deposits,defined
+40,Other non-current assets,defined
+41,"Loans, net of current portion and deferred costs",defined
+43,Accrued compensation and benefits,defined
+44,Gift card liability,defined
+45,Other long-term liabilities,defined
+46,"Operating lease liability, net of current portion",defined
+47,Operating Expense,defined
+48,Member's contribution,defined
+49,Retained Earnings,defined
+50,"PP&E, net",defined
+51,"Accrued workers' compensation liabilities, net of current portion",defined
+52,Controllable Expense,defined
+53,Non-Controllable Expense,defined
+54,Total Shared Expense,defined
+55,Cash flow from Financing Activities,defined
+56,Accrued Expenses,defined
+57,"AR-Trade, net",defined
+58,Current portion of debt,defined
+59,Current portion of workers' compensation liabilities,defined
+60,"Debt, net of current portion",defined
+61,"Goodwill, net",defined
+62,"Intangibles, net",defined
+63,Merchandise inventories,defined
+64,Other-AR,defined
+65,Revolving Line of Credit,defined
+66,"Right-of-use asset operating lease, net",defined
+67,Current portion of operating lease liability,defined
+68,Other,defined
+69,Prepayments and Other Receivables,defined
+70,Tangible fixed Assets,defined
+71,Accumulated Comprehensive gain/loss,defined
+72,Paid in Capital,defined
+73,COGS - Chandlery Costs,defined
+74,COGS - Drop Ship,defined
+75,COGS - Intercompany,defined
+76,COGS - Other Product Costs,defined
+77,Other Current Liability,defined
+78,Trade Payables,defined
+79,OTHER (INCOME) EXPENSE,defined
+80,Foreign Exchange,defined
+81,General Administrative,defined
+82,Insurance and Taxes,defined
+83,Marketing & Advertising,defined
+84,Office Supplies,defined
+85,Operating & Maintenance,defined
+86,Payroll & Related Expenses,defined
+87,Professional Fees,defined
+88,Travel and Entertainment,defined
+89,Utilities & Facilities,defined
+90,Depreciation,defined
+91,Exceptional Items,defined
+92,Drop Ship Revenue,defined
+93,Intercompany Revenue,defined
+94,Product Revenue,defined
+95,Services,defined
+96,Amortization,defined
+97,Opening Balance,defined
+98,COGS - Subscription,defined
+99,Intangible Assets,defined
+100,Investments & Other Long Term Assets,defined
+101,Propert Plant & Equipment,defined
+102,Distributions,defined
+103,COGS - Expired Product Revenue,defined
+104,COGS - Services,defined
+105,Insurances,defined
+106,Interest Income and Expense,defined
+107,Long Term  Liabilities,defined
+108,Long Term Debts,defined
+109,Subscription Revenue,defined
+110,Income Taxes,defined
+111,Chandlery Income,defined
+112,Expired Product Revenue,defined
+113,Intangible Fixed Assets,defined

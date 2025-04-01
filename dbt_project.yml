@@ -1,0 +1,503 @@
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'jist_dbt'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'jist_dbt'
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# In this example config, we tell dbt to build all models in the example/
+# directory as views. These settings can be overridden in the individual model
+# files using the `{{ config(...) }}` macro.
+
+models:
+  jist_dbt:
+    xrg:
+      +schema: xrg
+      xrg_auv:
+        materialized: 'incremental'
+        unique_key: "'entity_period_id'||'-'||'concept_id'"
+        post-hook:
+          - create index if not exists idx_entity_period_concept on {{ this.schema }}.{{ this.table }}(entity_period_id, concept_id)
+      xrg_balance_sheet:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'subcategory_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name, subcategory_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      xrg_five_year_plans:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'projected_year'||'-'||'type'"
+        post-hook:
+          - create index if not exists idx_month_year_projected_year_type on {{ this.schema }}.{{ this.table }}(month, year, projected_year, type)
+          - create index if not exists idx_type on {{ this.schema }}.{{ this.table }}(type)
+      xrg_guest_check:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'entity_id'"
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+          - create index if not exists idx_point_of_sale_date on {{ this.schema }}.{{ this.table }}(point_of_sale_date)
+      xrg_headcount:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'department'"
+        post-hook:
+          - create index if not exists idx_month_year_department on {{ this.schema }}.{{ this.table }}(month, year, department)
+          - create index if not exists idx_department on {{ this.schema }}.{{ this.table }}(department)
+      xrg_profit_and_loss_enhanced:
+        materialized: 'incremental'
+        unique_key: "'entity_id'||'-'||'year'||'-'||'month'||'-'||'metric_name'"
+        post_hook:
+          - create index if not exists idx_entity on {{ this.schema }}.{{ this.table }}(entity_id)
+      xrg_profit_and_loss_staged:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'category_id'||'-'||'gl_number'"
+      xrg_public_equities:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'comparison_company'||'-'||'metric'"
+        post-hook:
+          - create index if not exists idx_month_year_day_metric on {{ this.schema }}.{{ this.table }}(month, year, day, metric)
+          - create index if not exists idx_comparison_company on {{ this.schema }}.{{ this.table }}(comparison_company)
+      xrg_revenue_wtd:
+        materialized: 'incremental'
+        unique_key: 'sales_pk'
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+      xrg_revenue_wtd_enhanced:
+        materialized: 'incremental'
+        unique_key: 'sales_pk'
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+      xrg_sales_hourly:
+        materialized: 'incremental'
+        unique_key: "'entity_id'||'-'||'year'||'-'||'month'||'-'||'day'||'-'||'hour'"
+        post-hook:
+          - create index if not exists idx_entity_yea_month_day_hour on {{this.schema}}.{{this.table}}(entity_id, year, month, day, hour)
+          - create index if not exists idx_concept on {{this.schema}}.{{this.table}}(concept_id)
+      xrg_rent_roll:
+        materialized: 'incremental'
+        unique_key: "'entity_id'||'-'||'date'"
+        post-hook:
+          - create index if not exists idx_entity_id_type_date on {{ this.schema }}.{{ this.table }}(entity_id, date)
+      xrg_target_trial_balance_manual:
+        materialized: 'view'
+      xrg_target_trial_balance:
+        materialized: 'view'
+      xrg_profit_and_loss:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'metric_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_entity_id_metric_name on {{ this.schema }}.{{ this.table }}(month, year, entity_id, metric_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      xrg_net_working_capital:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      xrg_cash_flow:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+    pink_taco:
+      +schema: pink_taco
+      pink_taco_auv:
+        materialized: 'incremental'
+        unique_key: "'year'||'-'||'month'||'-'||'category_name'"
+        post-hook:
+          - create index if not exists idx_month_year_category on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+      pink_taco_balance_sheet:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'subcategory_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name, subcategory_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      pink_taco_five_year_plans:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'projected_year'||'-'||'type'"
+        post-hook:
+          - create index if not exists idx_month_year_projected_year_type on {{ this.schema }}.{{ this.table }}(month, year, projected_year, type)
+          - create index if not exists idx_type on {{ this.schema }}.{{ this.table }}(type)
+      pink_taco_guest_check:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'entity_id'"
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+          - create index if not exists idx_point_of_sale_date on {{ this.schema }}.{{ this.table }}(point_of_sale_date)
+      pink_taco_headcount:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'department'"
+        post-hook:
+          - create index if not exists idx_month_year_department on {{ this.schema }}.{{ this.table }}(month, year, department)
+          - create index if not exists idx_department on {{ this.schema }}.{{ this.table }}(department)
+      pink_taco_net_working_capital:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      pink_taco_profit_and_loss_staged:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'category_id'||'-'||'gl_number'"
+      pink_taco_public_equities:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'comparison_company'||'-'||'metric'"
+        post-hook:
+          - create index if not exists idx_month_year_day_metric on {{ this.schema }}.{{ this.table }}(month, year, day, metric)
+          - create index if not exists idx_comparison_company on {{ this.schema }}.{{ this.table }}(comparison_company)
+      pink_taco_revenue_wtd:
+        materialized: 'incremental'
+        unique_key: 'sales_pk'
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+      pink_taco_target_trial_balance_manual:
+        materialized: 'view'
+      pink_taco_target_trial_balance:
+        materialized: 'view'
+      pink_taco_profit_and_loss:
+        schema: pink_taco
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'metric_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_entity_id_metric_name on {{ this.schema }}.{{ this.table }}(month, year, entity_id, metric_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      pink_taco_cash_flow:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+        
+    venuplus:
+      +schema: venuplus
+      venuplus_target_trial_balance_manual:
+        materialized: 'view'
+      venuplus_target_trial_balance:
+        materialized: 'view'
+      venuplus_balance_sheet:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'subcategory_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name, subcategory_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      venuplus_profit_and_loss_staged:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'category_id'||'-'||'gl_number'"
+      venuplus_profit_and_loss:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'metric_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_entity_id_metric_name on {{ this.schema }}.{{ this.table }}(month, year, entity_id, metric_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      venuplus_revenue_wtd_location:
+        materialized: 'incremental'
+        unique_key: "'location_key'||'-'||'date'"
+      venuplus_revenue_wtd_international:
+        materialized: 'incremental'
+        unique_key: "'site'||'-'||'date'"
+      venuplus_headcount:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'department'"
+        post-hook:
+          - create index if not exists idx_month_year_department on {{ this.schema }}.{{ this.table }}(month, year, department)
+          - create index if not exists idx_department on {{ this.schema }}.{{ this.table }}(department)
+      venuplus_public_equities:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'comparison_company'||'-'||'metric'"
+        post-hook:
+          - create index if not exists idx_month_year_day_metric on {{ this.schema }}.{{ this.table }}(month, year, day, metric)
+          - create index if not exists idx_comparison_company on {{ this.schema }}.{{ this.table }}(comparison_company)
+      venuplus_cash_flow:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'||'-'||'country_id'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, country_id, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+
+      venuplus_five_year_plans:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'projected_year'||'-'||'type'"
+        post-hook:
+          - create index if not exists idx_month_year_projected_year_type on {{ this.schema }}.{{ this.table }}(month, year, projected_year, type)
+          - create index if not exists idx_type on {{ this.schema }}.{{ this.table }}(type)
+
+      venuplus_net_working_capital:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+    haptiq:
+      +schema: haptiq
+      haptiq_auv:
+        materialized: 'incremental'
+        unique_key: "'year'||'-'||'month'||'-'||'category_name'"
+        post-hook:
+          - create index if not exists idx_month_year_category on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+      haptiq_balance_sheet:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'subcategory_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name, subcategory_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      haptiq_five_year_plans:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'projected_year'||'-'||'type'"
+        post-hook:
+          - create index if not exists idx_month_year_projected_year_type on {{ this.schema }}.{{ this.table }}(month, year, projected_year, type)
+          - create index if not exists idx_type on {{ this.schema }}.{{ this.table }}(type)
+      haptiq_headcount:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'department'"
+        post-hook:
+          - create index if not exists idx_month_year_department on {{ this.schema }}.{{ this.table }}(month, year, department)
+          - create index if not exists idx_department on {{ this.schema }}.{{ this.table }}(department)
+      haptiq_net_working_capital:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      haptiq_profit_and_loss_staged:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'category_id'||'-'||'gl_number'"
+      haptiq_public_equities:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'comparison_company'||'-'||'metric'"
+        post-hook:
+          - create index if not exists idx_month_year_day_metric on {{ this.schema }}.{{ this.table }}(month, year, day, metric)
+          - create index if not exists idx_comparison_company on {{ this.schema }}.{{ this.table }}(comparison_company)
+      haptiq_revenue_wtd:
+        materialized: 'incremental'
+        unique_key: 'sales_pk'
+        post-hook:
+          - create index if not exists idx_month_year_day_entity_id on {{ this.schema }}.{{ this.table }}(month, year, day, entity_id)
+      haptiq_target_trial_balance:
+        materialized: 'view'
+      haptiq_profit_and_loss:
+        schema: haptiq
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'entity_id'||'-'||'metric_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_entity_id_metric_name on {{ this.schema }}.{{ this.table }}(month, year, entity_id, metric_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      haptiq_cash_flow:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+    unimed:
+      +schema: unimed
+      unimed_target_trial_balance_manual:
+        materialized: 'view'
+      unimed_target_trial_balance:
+        materialized: 'view'
+      unimed_trial_balances_usa_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_sg_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_aus_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_gr_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_davie_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_uk_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_trial_balances_tm_staged:
+        materialized: 'incremental'
+        unique_key: "'gl_code_id'||'-'||'ref_date'"
+      unimed_profit_and_loss_staged:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'country_id'||'-'||'category_id'||'-'||'gl_number'"
+      unimed_profit_and_loss:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'country_id'||'-'||'metric_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_country_id_metric_name on {{ this.schema }}.{{ this.table }}(month, year, country_id, metric_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      unimed_revenue_wtd:
+        materialized: 'incremental'
+        unique_key: "'date'||'-'||'country_id'"
+        post-hook:
+          - create index if not exists idx_month_year_day_country_id on {{ this.schema }}.{{ this.table }}(month, year, day, country_id)      
+      unimed_balance_sheet:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'subcategory_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_category_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name, subcategory_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      unimed_five_year_plans:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'projected_year'||'-'||'type'"
+        post-hook:
+          - create index if not exists idx_month_year_projected_year_type on {{ this.schema }}.{{ this.table }}(month, year, projected_year, type)
+          - create index if not exists idx_type on {{ this.schema }}.{{ this.table }}(type)
+      unimed_headcount:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'department'"
+        post-hook:
+          - create index if not exists idx_month_year_department on {{ this.schema }}.{{ this.table }}(month, year, department)
+          - create index if not exists idx_department on {{ this.schema }}.{{ this.table }}(department)
+      unimed_public_equities:
+        materialized: 'incremental'
+        unique_key: "'month'||'-'||'year'||'-'||'day'||'-'||'comparison_company'||'-'||'metric'"
+        post-hook:
+          - create index if not exists idx_month_year_day_metric on {{ this.schema }}.{{ this.table }}(month, year, day, metric)
+          - create index if not exists idx_comparison_company on {{ this.schema }}.{{ this.table }}(comparison_company)
+      unimed_net_working_capital:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      unimed_cash_flow:
+        materialized: 'incremental'
+        unique_key: "'period'||'-'||'category_name'||'-'||'gl_number'"
+        post-hook:
+          - create index if not exists idx_month_year_subcategory on {{ this.schema }}.{{ this.table }}(month, year, category_name)
+          - create index if not exists idx_gl_number on {{ this.schema }}.{{ this.table }}(gl_number)
+      unimed_revenue_customer_segment:
+        materialized: 'incremental'
+        unique_key: "'country_id'||'-'||'group_name' ||'-'|| 'year' ||'-'|| 'month' ||'-'|| 'day'"
+        post-hook:
+          - create index if not exists idx_year_month on {{ this.schema }}.{{ this.table }}(month, year)
+seeds:
+  jist_dbt:
+    xrg:
+      +schema: xrg
+      xrg_entity_config_data:
+        post-hook:
+          - create index if not exists idx_entity_company_name on {{ this.schema }}.{{ this.table }}(company_name, source_entity_id)
+          - create index if not exists idx_source_entity_id on {{ this.schema }}.{{ this.table }}(source_entity_id)
+          - create index if not exists idx_concept_id on {{ this.schema }}.{{ this.table }}(concept_id)
+      xrg_gl_config_data:
+      
+      xrg_location_type_config_data:
+      
+      xrg_state_config_data:
+
+      xrg_city_config_data:
+
+      xrg_report_config_data:
+      
+      xrg_period_config_data:
+      
+      xrg_entity_period_config_data:
+
+      xrg_fiscal_calendar:
+        post-hook:
+          - create index if not exists idx_period_end_date on {{ this.schema }}.{{ this.table }}(period_end_date)
+      
+      xrg_13_week_cashflow:
+
+      xrg_concept_config_data:
+      
+    pink_taco:
+      +schema: pink_taco 
+      pink_taco_entity_config_data:
+        post-hook:
+          - create index if not exists idx_entity_company_name on {{ this.schema }}.{{ this.table }}(company_name, source_entity_id)
+          - create index if not exists idx_source_entity_id on {{ this.schema }}.{{ this.table }}(source_entity_id)
+          - create index if not exists idx_concept_id on {{ this.schema }}.{{ this.table }}(concept_id)
+      
+      pink_taco_gl_config_data:
+
+      pink_taco_report_config_data:
+
+      pink_taco_fiscal_calendar:
+        post-hook:
+          - create index if not exists idx_period_end_date on {{ this.schema }}.{{ this.table }}(period_end_date)
+      
+      pink_taco_13_week_cashflow:
+      
+      pink_taco_concept_config_data:
+      
+      pink_taco_period_config_data:
+      
+      pink_taco_entity_period_config_data:
+        
+    
+    public:
+      +schema: public
+
+      metric_config:
+
+      report_metric_config:
+      
+    venuplus:
+      +schema: "venuplus"
+      venuplus_entity_config_data:
+        post-hook:
+          - create index if not exists idx_entity_company_name on {{ this.schema }}.{{ this.table }}(company_name, source_entity_id)
+          - create index if not exists idx_source_entity_id on {{ this.schema }}.{{ this.table }}(source_entity_id)
+
+      venuplus_report_config_data:
+
+      venuplus_period_config_data:
+
+      venuplus_entity_period_config_data:
+    
+    haptiq:
+      +schema: haptiq 
+      haptiq_entity_config_data:
+        post-hook:
+          - create index if not exists idx_entity_company_name on {{ this.schema }}.{{ this.table }}(company_name, source_entity_id)
+          - create index if not exists idx_source_entity_id on {{ this.schema }}.{{ this.table }}(source_entity_id)
+          - create index if not exists idx_concept_id on {{ this.schema }}.{{ this.table }}(concept_id)
+      
+      haptiq_gl_config_data:
+
+      haptiq_report_config_data:
+
+      haptiq_fiscal_calendar:
+        post-hook:
+          - create index if not exists idx_period_end_date on {{ this.schema }}.{{ this.table }}(period_end_date)
+      
+      haptiq_13_week_cashflow:
+      
+      haptiq_concept_config_data:
+      
+      haptiq_period_config_data:
+      
+      haptiq_entity_period_config_data:
+    unimed:
+      +schema: unimed
+      unimed_report_config_data:
+
+      unimed entity_config_data:
+
+      unimed period_config_data:
+
+      unimed entity_period_config_data:
+
+      unimed_customer_segment_data:

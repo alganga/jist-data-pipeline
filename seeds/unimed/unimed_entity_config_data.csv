@@ -1,0 +1,8 @@
+entity_name,source_entity_id,entity_id,country_id,company_id,company_name
+United States,1,1,1,12,unimed
+United Kingdom,2,2,2,12,unimed
+Singapore,3,3,3,12,unimed
+Greece,4,4,4,12,unimed
+Australia,5,5,5,12,unimed
+Davie,6,6,6,12,unimed
+Telemed,10,10,10,12,unimed
